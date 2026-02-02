@@ -1,0 +1,36 @@
+*{
+    background-color: #FFF0F5;
+}
+
+.barre {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 220px;
+  height: 10px;
+  
+
+}
+
+/* Fond de la barre de progression  */
+.barre::-webkit-progress-bar {
+  background-color: white;
+  border-radius: 10px;
+  
+}
+
+/* Couleur de progression */
+.barre::-webkit-progress-value {
+  background-color: palevioletred; 
+
+}
+
+ul{
+    list-style-type: "\1F370";
+
+}
+
+
+.input {
+    width: auto;
+    border: palevioletred 2px solid;
+}
